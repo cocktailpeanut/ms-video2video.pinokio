@@ -111,16 +111,8 @@ with gr.Blocks(css=css) as demo:
         gr.Markdown("""
         
             <h1 style="text-align: center;">
-                MS Image2Video
+                MS Video2Video
             </h1>
-
-            <p style="text-align: center;">
-                Turn any image into a video ! <br />
-                To use this demo, simply upload an image and hit the Submit button. <br />
-                Don't forget to share your results with the <a href="https://huggingface.co/spaces/fffiloni/MS-Image2Video/discussions">Community</a> ;)
-            </p>
-
-            [![Duplicate this Space](https://huggingface.co/datasets/huggingface/badges/raw/main/duplicate-this-space-sm.svg#center)](https://huggingface.co/spaces/fffiloni/MS-Image2Video-cloning?duplicate=true)
 
         
         """)
