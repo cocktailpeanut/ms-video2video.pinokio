@@ -43,8 +43,7 @@
     {
       "method": "browser.open",
       "params": {
-        "uri": "{{self.session.url}}",
-        "target": "_blank"
+        "uri": "/?selected=ModelScope Video2Video"
       }
     },
     {

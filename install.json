@@ -121,7 +121,7 @@
     {
       "method": "browser.open",
       "params": {
-        "uri": "/?selected=ModelScope Image2Video"
+        "uri": "/?selected=ModelScope Video2Video"
       }
     }
   ]
