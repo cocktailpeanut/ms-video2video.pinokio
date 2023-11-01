@@ -42,7 +42,7 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "npx --yes torchcraft@0.0.13",
+        "message": "npx --yes torchcraft@0.0.15",
         "on": [
           {
             "event": null,
@@ -61,6 +61,16 @@
             "return": true
           }
         ]
+      }
+    },
+    {
+      "method": "shell.enter",
+      "params": {
+        "message": "{{gpu === 'nvidia' ? 'pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118' : 'pip install xformers==0.0.22.post4'}}",
+        "on": [{
+          "event": null,
+          "return": true
+        }]
       }
     },
     {
